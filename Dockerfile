@@ -22,4 +22,4 @@ FROM continuumio/anaconda3
 COPY . /usr/app/
 WORKDIR /usr/app/
 RUN pip install -r requirements.txt
-RUN python temp.py
+RUN runipy model_jupyter.ipynb

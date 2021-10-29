@@ -4,6 +4,7 @@ Flask==1.1.2
 numpy
 pandas
 google-cloud-bigquery
+runipy
 # scikit-learn
 #sklearn
 
