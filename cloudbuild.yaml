@@ -49,7 +49,7 @@ steps:
 - name: "gcr.io/cloud-builders/gke-deploy"
   args:
   - run
-  - --image='gcr.io/$PROJECT_ID/imgwebapp:v1'
+  - --image=gcr.io/$PROJECT_ID/imgwebapp:v1
   - --location=us-west1
   - --cluster=ml-pipeline
 
